@@ -1,0 +1,37 @@
+DML -> Data Manipulation Language
+
+-- Objective :- 
+
+The purpose of this task is to get hands-on experience with **DML (Data Manipulation Language)** operations in SQL. Practice and understand inserting, updating, and deleting data, as well as handling special cases like `NULL` values and using `DEFAULT` constraints.
+
+-- Tools Used :- 
+MySQL Workbench – Used for executing and testing SQL queries.
+
+-- Key Concepts :-
+
+-- What is DML?
+   DML (Data Manipulation Language) refers to SQL commands that are used to manipulate data stored in a database. 
+
+The main DML statements are :-
+`INSERT` – Adds new records to a table.
+`UPDATE` – Modifies existing records.
+`DELETE` – Removes records from a table.
+
+-- What is NULL in SQL?
+`NULL` represents a **missing or unknown value**.
+It is **not equal to 0 or an empty string**.
+You can use `IS NULL` and `IS NOT NULL` to check for NULL values.
+
+-- DEFAULT Constraint :-
+- A "default" value is automatically assigned to a column when no value is provided.
+- Helps in avoiding NULLs for columns where a common value is expected.
+
+
+NULL vs 0 :- NULL = unknown or missing, 0 = known number 
+DEFAULT Constraint :- Auto-fills a value if none is given 
+IS NULL :- Checks if a column contains NULL 
+Partial Insert :- Insert only selected columns 
+NOT NULL Field :- Must provide a value; otherwise, error 
+Rollback DELETE :- Use `ROLLBACK` inside a transaction 
+INSERT Using SELECT :- Copy data from one table to another 
+ON DELETE CASCADE :- Automatically delete child records when parent is deleted 
